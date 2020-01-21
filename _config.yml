@@ -10,7 +10,6 @@
 # Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
-theme                    : "minimal-mistakes-jekyll"
 remote_theme             : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
@@ -97,22 +96,16 @@ social:
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
 
-# Analytics
-analytics:
-  provider               : false # false (default), "google", "google-universal", "custom"
-  google:
-    tracking_id          :
-    anonymize_ip         : # true, false (default)
-
 
 # Site Author
 author:
-  name             : "Nicolay Pierre"
-  avatar           : "assets/img/PierreNicolay2019.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Edinburgh, Scotland"
-  email            : "pon1@hw.ac.uk
-  links:
+name             : "Nicolay Pierre"
+avatar           : "assets/img/PierreNicolay2019.jpg"
+bio              : "I am an **amazing** person."
+location         : "Edinburgh, Scotland"
+email            : "pon1@hw.ac.uk"
+
+links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       # url: mailto:your.name@email.com
@@ -228,6 +221,7 @@ timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 # Plugins (previously gems:)
 plugins:
+  - jekyll-remote-theme
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
@@ -290,6 +284,6 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true
       share: true
       related: true
