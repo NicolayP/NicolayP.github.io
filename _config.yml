@@ -10,16 +10,16 @@
 # Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
-# theme                  : "minimal-mistakes-jekyll"
-remote_theme           : "mmistakes/minimal-mistakes"
+theme                  : "minimal-mistakes-jekyll"
+# remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
 title                    : "Research Blog"
 title_separator          : "-"
-subtitle                 : This blog contains post about my Ph.D. research. The main topics addressed will be related to computer vision, probabilistic model predictive control, bayesian neural network, probability modeling and optimal control."
-name                     : "Your Name"
+subtitle                 : "Research - about me - random"
+name                     : "Pierre Nicolay"
 description              : "An amazing website."
 url                      : "https://nicolayp.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -111,14 +111,14 @@ author:
   avatar           : "/assets/img/PierreNicolay2019.jpg"
   bio              : "I am an **amazing** person."
   location         : "Edinburhg, Scotland"
-  email            : mailto:pon1@hw.ac.uk
+  email            : 
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: mailto:pon1@hw.ac.uk
-    - label: "Website"
+    - label: "CDT"
       icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
+      url: "https://www.edinburgh-robotics.org/students/pierre-nicolay"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
@@ -127,7 +127,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+      url: "https://github.com/NicolayP"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
@@ -143,7 +143,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
+      url: "https://github.com/NicolayP"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
@@ -294,3 +294,15 @@ defaults:
       comments: true
       share: true
       related: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+  # _foo
+  - scope:
+      path: ""
+      type: foo
+    values:
+      layout: single
