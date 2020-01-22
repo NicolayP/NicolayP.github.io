@@ -10,22 +10,23 @@
 # Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
-remote_theme             : "mmistakes/minimal-mistakes"
+# theme                  : "minimal-mistakes-jekyll"
+remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
 title                    : "Research Blog"
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Pierre Nicolay"
-description              : "This blog contains post about my Ph.D. research. The main topics addressed will be related to computer vision, probabilistic model predictive control, bayesian neural network, probability modeling and optimal control."
+subtitle                 : This blog contains post about my Ph.D. research. The main topics addressed will be related to computer vision, probabilistic model predictive control, bayesian neural network, probability modeling and optimal control."
+name                     : "Your Name"
+description              : "An amazing website."
 url                      : "https://nicolayp.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "NicolayP/NicolayP.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : "Pierre Nicolay"
+masthead_title           : Pierre Nicolay
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -96,19 +97,25 @@ social:
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
 
+# Analytics
+analytics:
+  provider               : false # false (default), "google", "google-universal", "custom"
+  google:
+    tracking_id          :
+    anonymize_ip         : # true, false (default)
+
 
 # Site Author
 author:
-name             : "Nicolay Pierre"
-avatar           : "assets/img/PierreNicolay2019.jpg"
-bio              : "I am an **amazing** person."
-location         : "Edinburgh, Scotland"
-email            : "pon1@hw.ac.uk"
-
-links:
+  name             : "Nicolay Pierre"
+  avatar           : "/assets/img/PierreNicolay2019.jpg"
+  bio              : "I am an **amazing** person."
+  location         : "Edinburhg, Scotland"
+  email            : mailto:pon1@hw.ac.uk
+  links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: mailto:your.name@email.com
+      url: mailto:pon1@hw.ac.uk
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
