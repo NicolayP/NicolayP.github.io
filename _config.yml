@@ -18,7 +18,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 locale                   : "en-US"
 title                    : "Research Blog"
 title_separator          : "-"
-subtitle                 : "Research - about me - random"
+subtitle                 : "Ph.D. blog on control"
 name                     : "Pierre Nicolay"
 description              : "An amazing website."
 url                      : "https://nicolayp.github.io"
@@ -30,39 +30,27 @@ masthead_title           : Pierre Nicolay
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
-  disqus:
-    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
-  discourse:
-    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
-  facebook:
-    # https://developers.facebook.com/docs/plugins/comments
-    appid                :
-    num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
-  utterances:
-    theme                : # "github-light" (default), "github-dark"
-    issue_term           : # "pathname" (default)
+  provider               : "staticman_v2"
 staticman:
   allowedFields          : # ['name', 'email', 'url', 'message']
-  branch                 : # "master"
+  branch                 : "master"
   commitMessage          : # "New comment by {fields.name}"
   filename               : # comment-{@timestamp}
   format                 : # "yml"
   moderation             : # true
   path                   : # "/_data/comments/{options.slug}" (default)
-  requiredFields         : # ['name', 'email', 'message']
+  requiredFields         : ['name', 'email', 'message']
   transforms:
     email                : # "md5"
   generatedFields:
     date:
       type               : # "date"
       options:
-        format           : # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
-  endpoint               : # URL of your own deployment with trailing slash, will fallback to the public instance
+      format             : # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
+  endpoint               : https://staticman3.herokuapp.com/v3/entry/github/
 reCaptcha:
-  siteKey                :
-  secret                 :
+  siteKey                : "6Lcg09EUAAAAAFSL6jJj3Y14L-r5WssGy2rmGbro"
+  secret                 : "EmSbXiGUeokKw83I7BtvJuMjdL9EPqr40JLb30U8kya877NkpEZq8pVXQhrnHNR0nMvGiSUh4PTm/kf0+0SNO653mxZ0C6D97ZbqABHv0029KA2nY35HJd4Wq9E5KQbOSnSSaCcFgqBNIcD0OtUWnQNBQzmQTUCSUszFrHqYQBQFXEz3hXHxlVEGP6rsLmfpfPpZ9yGDrVr5/QzkJeMMNIBMU0mEreIpAuWrqNQI0PbhjfsLkBZF2yxXtOoquwDNJYTMRXTkpXUJ/JzsbTebtCoD/Sn7dfKU6YA+QBxMdyt96pXoxLCDPC3Mj5tdILKIUeDboeqJoOIPmpRFyEklqA=="
 atom_feed:
   path                   : # blank (default) uses feed.xml
 search                   : # true, false (default)
@@ -109,7 +97,7 @@ analytics:
 author:
   name             : "Nicolay Pierre"
   avatar           : "/assets/img/PierreNicolay2019.jpg"
-  bio              : "I am an **amazing** person."
+  bio              : "\"Computer science is no more about computer than astronomy is about telescopes.\" <br>- Edsger Dijkstra"
   location         : "Edinburhg, Scotland"
   email            : 
   links:
