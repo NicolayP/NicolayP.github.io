@@ -10,8 +10,8 @@
 # Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
-#theme                  : "minimal-mistakes-jekyll"
-remote_theme           : "mmistakes/minimal-mistakes"
+#theme                   : "minimal-mistakes-jekyll"
+#remote_theme            : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
@@ -98,7 +98,7 @@ author:
   name             : "Nicolay Pierre"
   avatar           : "/assets/img/PierreNicolay2019.jpg"
   bio              : "\"Computer science is no more about computer than astronomy is about telescopes.\" <br>- Edsger Dijkstra"
-  location         : "Edinburhg, Scotland"
+  location         : "Edinburgh, Scotland"
   email            : 
   links:
     - label: "Email"
