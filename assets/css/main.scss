@@ -6,3 +6,17 @@
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+figure {
+   display: inline-block;
+   margin: 20px;
+}
+
+figure img{
+   vertical-align: top;
+}
+
+figure figcaption{
+   text-align: center;
+   color: black;
+}
